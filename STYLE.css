@@ -1,0 +1,265 @@
+
+        *{
+            margin: 0; 
+            padding: 0;             
+            font-family: arial;
+            border: border-box;
+          }
+          body{
+            background-color: rgba(255, 255, 255, 0.678);
+
+            background-position-x: center;
+            background-size: cover;
+            color: rgb(20, 8, 8);
+          }
+          .h{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#800000;
+            color: rgb(255, 255, 255);
+          }
+          .navbar{
+            padding: 9px;
+          display: flex;
+          
+          margin: 2px;
+            color: rgb(20, 19, 19);
+            background-color:#ffffff;
+          }
+          .name{
+            align-items: center;
+          }
+          .name:hover{
+          cursor: pointer;
+          }
+          UL li{
+            margin: 10px;
+            padding: 20px;
+          display: inline;
+          list-style: none;
+          }
+          ul li a
+          {
+            text-align: right;
+            text-decoration: none; 
+            size: 30px;
+            color: rgb(13, 19, 19);
+          }
+          ul li a:hover{
+          cursor: pointer;
+          color: #d83200;
+
+          }
+          .img{
+            row-gap: 1;
+            text-align: center;
+           grid: row 1px;;
+          }
+         .img
+         {
+background-position-x: center;
+background-size: cover;
+         }  
+         .Inform{
+          text-align: center;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          background-color: #800000;
+          color: rgb(255, 255, 255);
+        }
+        .Inform:hover{
+          cursor: pointer;
+          color: blue;
+          transform: 6px;;
+        }
+        .certifid{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        .certifid:hover{
+        background-color: #800000;
+           color: #ffffff;
+      }
+
+      .subject{
+        text-align: center;
+        border-bottom: #800000 3px solid;
+      }
+    .A1{
+    
+        letter-spacing: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding: -5px!important;
+        line-height: normal;
+        font-size: 14px;
+        font-weight: 600;
+        min-height: 52px;
+     box-sizing: border-box;
+    }
+    .A1:hover{
+      border-radius: 1px soild; 
+      background-color: #a14d0998;
+      cursor: pointer;
+      color: blue;
+    }
+    .A1{
+    
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      padding: -5px!important;
+      line-height: normal;
+      font-size: 14px;
+      font-weight: 600;
+      min-height: 52px;
+   box-sizing: border-box;
+  }
+  .A1:hover{
+    border-radius: 1px soild; 
+    background-color: #c5c20c;
+   cursor: pointer;
+   color: blue;
+  }.A2{
+    
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: -5px!important;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 52px;
+ box-sizing: border-box;
+}
+.A2:hover{
+  cursor: pointer;
+  color: blue;
+  border-radius: 1px soild; 
+  background-color: #7907ad;
+}.A3{
+    
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: -5px!important;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 52px;
+box-sizing: border-box;
+}
+.A3:hover{
+border-radius: 1px soild; 
+background-color: #697912;
+cursor: pointer;
+color: blue;
+}.A4{
+    
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: -5px!important;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 52px;
+box-sizing: border-box;
+}
+.A4:hover{
+border-radius: 1px soild; 
+background-color: #226825;
+cursor: pointer;
+color: blue;
+}.A5{
+    
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: -5px!important;
+  line-height: normal;
+  font-size: 14px;
+  font-weight: 600;
+  min-height: 52px;
+box-sizing: border-box;
+}
+.A5:hover{
+border-radius: 1px soild; 
+background-color: #750080;
+cursor: pointer;
+color: blue;
+}
+.column {
+  float: right
+  ;
+  width: 30.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "1";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column :hover{
+  cursor: pointer;
+  transition: linear;
+}
+      .btn12{
+        color: rgb(248, 0, 0);
+        transform: none;
+        text-align: center  ;
+
+      }
+      .btn12:hover{
+       color: wheat ;
+      }
+      .vedi235{
+      text-align: center;
+      }
+      .vedi235:hover{
+  background-color: #3b743e;
+cursor: pointer;
+      }
+      .img10{
+        font-family: Arial, Helvetica, sans-serif;
+        color: antiquewhite;
+        text-align: center;
+        background-color: #800000;
+      }
+      .img10:hover{
+        color: blue;
+        cursor: pointer;
+      }
+      .mapouter{
+        display: block;
+      }
+      .form-img{
+ text-align: center;
+      }
+      .FormAdmissin{
+display: block;
+      }
